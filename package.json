@@ -1,8 +1,27 @@
 {
-  "name": "router",
-  "private": true,
+  "name": "ianstormtaylor-router",
+  "description": "A nice client-side router.",
+  "version": "0.6.3",
+  "keywords": [
+    "router",
+    "push",
+    "replace",
+    "link",
+    "delegate",
+    "listen"
+  ],
+  "main": "lib/index.js",
   "dependencies": {
-    "express": "~3.3.4",
-    "hbs": "~2.3.0"
-  }
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-link-delegate": "git://github.com/npmcomponent/component-link-delegate.git",
+    "component-path-to-regexp": "git://github.com/npmcomponent/component-path-to-regexp.git",
+    "component-querystring": "git://github.com/npmcomponent/component-querystring.git",
+    "component-url": "git://github.com/npmcomponent/component-url.git",
+    "ianstormtaylor-history": "git://github.com/npmcomponent/ianstormtaylor-history.git",
+    "segmentio-ware": "git://github.com/npmcomponent/segmentio-ware.git",
+    "timoxley-next-tick": "git://github.com/npmcomponent/timoxley-next-tick.git",
+    "yields-prevent": "git://github.com/npmcomponent/yields-prevent.git",
+    "yields-stop": "git://github.com/npmcomponent/yields-stop.git"
+  },
+  "license": "MIT"
 }
